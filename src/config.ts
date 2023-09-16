@@ -27,6 +27,12 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "GitLab",
+    href: "https://gitlab.com/phnaharris",
+    linkTitle: `${SITE.title} on GitLab`,
+    active: true,
+  },
+  {
     name: "Facebook",
     href: "https://facebook.com/phnaharris",
     linkTitle: `${SITE.title} on Facebook`,
@@ -54,7 +60,7 @@ export const SOCIALS: SocialObjects = [
     name: "Twitter",
     href: "https://twitter.com/phnaharris",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   // {
   //   name: "Twitch",
@@ -96,13 +102,7 @@ export const SOCIALS: SocialObjects = [
     name: "Discord",
     href: "https://discordapp.com/users/764335980492226600",
     linkTitle: `${SITE.title} on Discord`,
-    active: false,
-  },
-  {
-    name: "GitLab",
-    href: "https://gitlab.com/phnaharris",
-    linkTitle: `${SITE.title} on GitLab`,
-    active: false,
+    active: true,
   },
   // {
   //   name: "Reddit",
@@ -114,13 +114,13 @@ export const SOCIALS: SocialObjects = [
     name: "Skype",
     href: "https://join.skype.com/invite/v5j1CcUAJ2QF",
     linkTitle: `${SITE.title} on Skype`,
-    active: false,
+    active: true,
   },
   {
     name: "Telegram",
     href: "https://t.me/phnaharris",
     linkTitle: `${SITE.title} on Telegram`,
-    active: false,
+    active: true,
   },
   {
     name: "Mastodon",
