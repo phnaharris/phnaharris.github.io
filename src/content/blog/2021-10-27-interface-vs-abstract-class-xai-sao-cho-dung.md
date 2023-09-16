@@ -1,5 +1,5 @@
 ---
-title: Interface vs abstract class - Xài sao cho đúng?
+title: Interface vs abstract class - Xài sao cho đúng
 author: phnaharris
 pubDatetime: 2021-10-27T00:00:00
 postSlug: 2021-10-27-interface-vs-abstract-class-xai-sao-cho-dung
