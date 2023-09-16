@@ -23,11 +23,19 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Nam Anh Pham Hoang (Harris)</h1>
+      <div class="flex flex-row">
+        <img
+          class="w-36 h-36 mr-5 rounded-full"
+          src="/me.jpg"
+          alt="phnaharris"
+        />
+        <h1>Nam Anh Pham Hoang (Harris)</h1>
+      </div>
+
       <a
         target="_blank"
         href="/rss.xml"
-        class="rss-link"
+        class="rss-link align-middle"
         aria-label="rss feed"
         title="RSS Feed"
       >
@@ -40,15 +48,34 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
       </a>
 
-      <p>Hello! I'm currently working as a software engineer at Quickom.</p>
       <p>
-        Read the blog posts or check
+        Hello! I'm currently working as a software engineer at
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="https://quickom.com"
         >
-          README
-        </LinkButton> for more info.
+          Quickom
+        </LinkButton>. <br />
+        Before that, I learn a lot as a Computer Science student from
+        <LinkButton
+          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
+          href="https://quickom.com"
+        >
+          VNUHCM - University of Science
+        </LinkButton>. In parallel with my studies, I also worked as a freelance
+        mobile app developer and have experience working with APIs in particular
+        .NET Framework.
+      </p>
+      <p>
+        I am passionate about distributed systems, blockchain programming,
+        cryptocurrency, and related technologies. I am currently learning about
+        distributed systems and am open to any job opportunities in this field.
+      </p>
+      <p>
+        Starting to work while studying in university was a valuable opportunity
+        and a challenging experience that helped me grow as a programmer. It
+        gave me real-world experience, taught me important lessons, and helped
+        me build a network of professional contacts.
       </p>
       {
         // only display if at least one social link is enabled
