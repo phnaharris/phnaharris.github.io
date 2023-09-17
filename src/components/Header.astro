@@ -13,10 +13,10 @@ const { activeNav } = Astro.props;
 <header>
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
-    <a href="/" class="logo">
-      {SITE.title}
-    </a>
     <div class="top-nav-wrap">
+      <a href="/" class="logo">
+        {SITE.title}
+      </a>
       <nav id="nav-menu">
         <button
           class="hamburger-menu focus-outline"
@@ -144,11 +144,11 @@ const { activeNav } = Astro.props;
   nav ul li a {
     @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
   }
-  nav ul li:nth-child(4) a {
+  nav ul li:nth-child(5) a {
     @apply w-auto;
   }
-  nav ul li:nth-child(4),
-  nav ul li:nth-child(5) {
+  nav ul li:nth-child(5),
+  nav ul li:nth-child(6) {
     @apply col-span-1;
   }
   nav a.active {
