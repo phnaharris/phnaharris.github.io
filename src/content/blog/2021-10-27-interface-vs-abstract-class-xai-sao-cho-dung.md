@@ -164,74 +164,18 @@ giữa chúng có những sự khác nhau gì để người ta phải phân bi�
 niệm? Mình đã tìm kiếm và tổng hợp những điểm khác nhau tiêu biểu giữa interface
 và abstract class dưới đây thành một bảng so sánh:
 
-<table class="inner-borders" style="display: table; justify-content: center; width: 100%; font-size:100%;">
-    <tr style="background: gray;">
-        <th class="inner-borders">STT</th>
-        <th class="inner-borders">Kiểu</th>
-        <th class="inner-borders">Interface</th>
-        <th class="inner-borders">Abstract class</th>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">1</td>
-        <td>Phương thức</td>
-        <td>Chỉ có phương thức trừu tượng.</td>
-        <td>Có thể có phương thức thường và phương thức trừu tượng.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">2</td>
-        <td>Hàm dựng (<b>constructor</b>)</td>
-        <td>Không có.</td>
-        <td>Có thể có hoặc không.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">3</td>
-        <td>Đa kế thừa</td>
-        <td>Hỗ trợ.</td>
-        <td>Không hỗ trợ.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">4</td>
-        <td>Kế thừa</td>
-        <td>Có thể implement (một hoặc nhiều) interface cơ sở, không thể kế thừa một lớp.</td>
-        <td>Có thể kế thừa một lớp, và (một hoặc nhiều) interface khác.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">5</td>
-        <td>Static members</td>
-        <td>Không có.</td>
-        <td>Có thể có hoặc không.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">6</td>
-        <td>Access Modifier</td>
-        <td>public.</td>
-        <td>public, private, protected etc.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">7</td>
-        <td>Tốc độ</td>
-        <td>Chậm hơn vì cần thời gian để tìm kiếm các phương thức tương ứng trong lớp thừa kế.</td>
-        <td>Nhanh.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">8</td>
-        <td>Thành phần</td>
-        <td>Methods, properties (not fields), indexers, and events.</td>
-        <td>Methods (non-abstract, abstract), properties (non-abstract, abstract), constructor, destructor, data member (fields, constants...),...</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">9</td>
-        <td>Sử dụng</td>
-        <td>Được sử dụng để thực hiện những tính năng mà lớp không thể thực hiện (như đa kế thừa).</td>
-        <td>Được sử dụng để thực hiện những tính năng mà lớp thực hiện, với mục đích đạt được tính trừu tượng hóa trong lập trình hướng đối tượng.</td>
-    </tr>
-    <tr>
-        <td style="text-align: center; vertical-align: middle;">10</td>
-        <td>Ghi đè</td>
-        <td>Lớp con kế thừa phải ghi đè toàn bộ các phương thức (trừu tượng) của interface.</td>
-        <td>Có thể ghi đè toàn bộ, một phần hoặc không cần ghi đè nếu lớp trừu tượng không có phương thức trừu tượng.</td>
-    </tr>
-</table>
+| STT | Kiểu                   | Interface                                                                              | Abstract class                                                                                                                         |
+| --- | ---------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Phương thức            | Chỉ có phương thức trừu tượng.                                                         | Có thể có phương thức thường và phương thức trừu tượng.                                                                                |
+| 2   | Hàm dựng (constructor) | Không có.                                                                              | Có thể có hoặc không.                                                                                                                  |
+| 3   | Đa kế thừa             | Hỗ trợ.                                                                                | Không hỗ trợ.                                                                                                                          |
+| 4   | Kế thừa                | Có thể implement (một hoặc nhiều) interface cơ sở, không thể kế thừa một lớp.          | Có thể kế thừa một lớp, và (một hoặc nhiều) interface khác.                                                                            |
+| 5   | Static members         | Không có.                                                                              | Có thể có hoặc không.                                                                                                                  |
+| 6   | Access Modifier        | public.                                                                                | public, private, protected etc.                                                                                                        |
+| 7   | Tốc độ                 | Chậm hơn vì cần thời gian để tìm kiếm các phương thức tương ứng trong lớp thừa kế.     | Nhanh.                                                                                                                                 |
+| 8   | Thành phần             | Methods, properties (not fields), indexers, and events.                                | Methods (non-abstract, abstract), properties (non-abstract, abstract), constructor, destructor, data member (fields, constants...),... |
+| 9   | Sử dụng                | Được sử dụng để thực hiện những tính năng mà lớp không thể thực hiện (như đa kế thừa). | Được sử dụng để thực hiện những tính năng mà lớp thực hiện, với mục đích đạt được tính trừu tượng hóa trong lập trình hướng đối tượng. |
+| 10  | Ghi đè                 | Lớp con kế thừa phải ghi đè toàn bộ các phương thức (trừu tượng) của interface.        | Có thể ghi đè toàn bộ, một phần hoặc không cần ghi đè nếu lớp trừu tượng không có phương thức trừu tượng.                              |
 
 # Vậy khi nào thì chúng ta sử dụng interface, khi nào thì chúng ta sử dụng abstract class?
 
