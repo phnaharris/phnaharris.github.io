@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "phnaharris",
   ogImage: "astropaper-og.jpg", // https://popupsmart.com/blog/auto-generate-open-graph-image
   lightAndDarkMode: true,
-  postPerPage: 5,
+  postPerPage: 10,
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default

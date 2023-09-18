@@ -8,7 +8,7 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  site: "https://phnaharris.github.io", // replace this with your deployed domain
   integrations: [
     tailwind({
       config: {
