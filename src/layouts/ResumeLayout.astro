@@ -4,6 +4,8 @@ import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import Layout from "./Layout.astro";
+import TimeLine from "@components/TimeLine.astro";
+import SubSkill from "@components/SubSkill.astro";
 
 export interface Props {
   frontmatter: {
@@ -21,8 +23,137 @@ const { frontmatter } = Astro.props;
   <main id="main-content">
     <section id="resume" class="prose mb-28 max-w-3xl prose-img:border-0">
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
-      <slot />
+
+      <div class="my-5">
+        <div class="text-2xl w-full font-bold">Education</div>
+      </div>
+
+      <div class="time-line-container grid gap-4 mb-10">
+        <TimeLine
+          title="VNUHCM - University of Science, Ho Chi Minh City, Vietnam"
+          subtitle="B.A. Computer Science"
+          desc={[]}
+          date="2018 - 2022"
+        />
+      </div>
+
+      <div class="mb-5">
+        <div class="text-2xl w-full font-bold">Experiences</div>
+      </div>
+
+      <div class="time-line-container mb-10">
+        <TimeLine
+          title="Beowulf Blockchain, Vietnam"
+          subtitle="Software Enginneer/Blockchain Developer"
+          desc={[
+            "Responsible for the development, deployment, and maintenance of smart contracts on a variety of networks and protocols",
+            "Develop a suite of web3 services using a variety of technologies, including Node.js, Solidity, and IPFS",
+            "Backend Developer with Rust, Node.js",
+          ]}
+          date="2022 - Present"
+        />
+        <TimeLine
+          title="Freelancer"
+          subtitle=".NET Developer"
+          desc={[
+            "Study a variety of .NET Framework technical stack, including ASP.NET MVC, WPF, Entity Framework, and Xamarin.Forms",
+            "Communicate effectively with customers and team leaders to understand their needs and build applications that serves those needs",
+            "Support customers to use and maintain the product",
+            "Built Web API using ASP.NET MVC and Entity Framework",
+            "Built mobile cross-platform application using Xamarin.Forms",
+            "Built automation tool with Selenium and WPF to improve the user interaction with the application",
+          ]}
+          date="2019 - 2021"
+        />
+        <TimeLine
+          title="Tay Ninh High school"
+          subtitle="Self-taught programming"
+          desc={[
+            "Mobile App development using Android (Java)",
+            "Built some cool stuff with Arduino and Linux",
+          ]}
+          date="2017 - 2018"
+        />
+      </div>
+
+      <div class="mb-5">
+        <div class="text-2xl w-full font-bold">Certifications</div>
+      </div>
+
+      <ul class="list-disc mx-6 mb-10 grid gap-2">
+        <li>
+          <a href="https://www.hackerrank.com/phnaharris" target="_blank">
+            Hackerrank Certification
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/phnaharris" target="_blank">
+            LinkedIn Skill Assessment
+          </a>
+        </li>
+      </ul>
+
+      <div class="mb-5">
+        <div class="text-2xl w-full font-bold">Skills</div>
+
+        <SubSkill
+          title="Programming Languages"
+          techs={[
+            "Rust (Most loved)",
+            "JavaScript/TypeScript",
+            "Golang",
+            "Solidity",
+            "C/C++",
+            "C#",
+            "Scripting languages: Python Shell, Lua",
+          ]}
+        />
+
+        <SubSkill
+          title="DBMS"
+          techs={["MongoDB", "Postgres SQL", "MySQL", "SQLite", "Clickhouse"]}
+        />
+
+        <SubSkill
+          title="Frameworks"
+          techs={[
+            "Astro (this page ^-^)",
+            "Rocket.rs",
+            "Axum",
+            "Express.js",
+            "Fasitfy",
+            "React Native",
+            "Xamarin",
+            ".NET Framework (ASP.NET MVC)",
+            "WPF",
+            "Entity Framework",
+            "MVC & MVVM",
+          ]}
+        />
+
+        <SubSkill
+          title="Automation/Testing"
+          techs={["Ansible", "Selenium", "Shell scripting"]}
+        />
+
+        <SubSkill
+          title="Productivity tools"
+          techs={["Linux (I use Arch, btw)", "Git", "Neovim"]}
+        />
+
+        <SubSkill
+          title="Knowledge"
+          techs={[
+            "Distributed System",
+            "Blockchain",
+            "Cryptography",
+            "Data Structure & Algorithms",
+            "Design Pattern",
+            "Scrum",
+          ]}
+        />
+      </div>
     </section>
   </main>
-  <Footer />
 </Layout>
+<Footer />

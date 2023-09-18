@@ -119,6 +119,10 @@
     white-space: pre;
     overflow: scroll;
   }
+
+  .time-line-container > div:last-child .education__time > .education__line {
+    @apply hidden;
+  }
 }
 
 @layer components {

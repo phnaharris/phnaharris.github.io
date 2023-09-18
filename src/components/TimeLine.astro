@@ -1,0 +1,22 @@
+---
+const { title, subtitle, desc, date } = Astro.props;
+---
+
+<div class="flex">
+  <div class="education__time">
+    <span class="w-4 h-4 bg-skin-accent block rounded-full mt-1"></span>
+    <span
+      class="education__line bg-skin-accent block h-full w-[2px] translate-x-[7px]"
+    ></span>
+  </div>
+  <div class="bd-grid w-full px-3">
+    <h1 class="flex text-lg">
+      <div class="w-full text-skin-accent">{title}</div>
+      <div class="w-full text-end">{date}</div>
+    </h1>
+    <h2 class="m-0 text-sm">{subtitle}</h2>
+    <ul class="text-justify">
+      {Object.values(desc).map(item => <li class="text-sm">{item}</li>)}
+    </ul>
+  </div>
+</div>
