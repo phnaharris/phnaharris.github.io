@@ -38,8 +38,6 @@ Những thông tin trong bài viết của mình được trích từ khóa họ
 của tác giả Bill Laboon, Web3 Foundation. Nếu có hứng thú với lĩnh vực này, hãy
 học khóa học và trao đổi thêm với mình về những suy nghĩ của bạn nhé.
 
-# Table of Contents
-
 # Tiền tệ - phương tiện trao đổi giá trị của con người
 
 Từ xa xưa, con người đã dùng rất nhiều loại vật chất khác nhau để trao đổi hàng
