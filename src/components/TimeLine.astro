@@ -10,9 +10,9 @@ const { title, subtitle, desc, date } = Astro.props;
     ></span>
   </div>
   <div class="bd-grid w-full px-3">
-    <h1 class="flex text-lg">
-      <div class="w-full text-skin-accent">{title}</div>
-      <div class="w-full text-end">{date}</div>
+    <h1 class="md:flex text-lg">
+      <div class="text-skin-accent shrink">{title}</div>
+      <div class="md:ml-auto md:text-end flex-none">{date}</div>
     </h1>
     <h2 class="m-0 text-sm">{subtitle}</h2>
     <ul class="text-justify">
