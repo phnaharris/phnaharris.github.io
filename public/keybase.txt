@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/phnaharris
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://phnaharris.github.io
+  * I am phnaharris (https://keybase.io/phnaharris) on keybase.
+  * I have a public key ASAJg8rzGwWWoirIyJ56IdQL1_uIa8ZS7vERfHi9L0EmqAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200983caf31b0596a22ac8c89e7a21d40bd7fb886bc652eef1117c78bd2f4126a80a",
+      "host": "keybase.io",
+      "kid": "01200983caf31b0596a22ac8c89e7a21d40bd7fb886bc652eef1117c78bd2f4126a80a",
+      "uid": "6220065326788493818fba207e9d2b19",
+      "username": "phnaharris"
+    },
+    "merkle_root": {
+      "ctime": 1695252143,
+      "hash": "43ca23a0b41ff8b445847e9ce1c2196ea185f6e81f4b721f901b39c8f2c2d8a8371506092ac02f23db9b11c62886b3fdd1a22d61845832d3a75fccdc55f55e8e",
+      "hash_meta": "05487820369cfa6bc90d488a16fe0d38c5f2045120370c7ccdfa09c2a4ba31dc",
+      "seqno": 24942607
+    },
+    "service": {
+      "entropy": "SH4rgehY1IRtWxTfkm9rsrid",
+      "hostname": "phnaharris.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.2"
+  },
+  "ctime": 1695252157,
+  "expire_in": 504576000,
+  "prev": "f645e2844f347a014edf397e99a8e02053f0770f2c9a0c1113fcd2400ad12113",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCYPK8xsFlqIqyMieeiHUC9f7iGvGUu7xEXx4vS9BJqgKp3BheWxvYWTESpcCD8Qg9kXihE80egFO3zl+majgIFPwdw8smgwRE/zSQArRIRPEIPW20/yvlp8dU3OUJjf4uVm86TmTnLY3GfQqzygoP+CfAgHCo3NpZ8RARULjDqN02bRF5QPdC/1quoMbHIwny8V2kgPJwtYKrg5GIRl+hsGnMcGrlf0/BxxCkGv1IlrsBTKfkeHbBuCrDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFCeYuM6Yw2zN/iyBBaSNelQn4dxkz8yAyKAHKRAvM6Vo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/phnaharris
+
+==================================================================
