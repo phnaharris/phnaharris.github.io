@@ -24,6 +24,8 @@ const { frontmatter } = Astro.props;
     <section id="resume" class="prose mb-28 max-w-3xl prose-img:border-0">
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
 
+      <slot />
+
       <div class="my-5">
         <div class="text-2xl w-full font-bold">Education</div>
       </div>
