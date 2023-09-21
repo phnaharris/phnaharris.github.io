@@ -274,16 +274,9 @@ lòng mang tính lịch sự và cùng nhau phát triển. Bài này khá dài v
 ơn sự quan tâm của mọi khi đã đọc đến đây. Chúc mọi người ngày càng phát triển
 hơn trên con đường của mình đã chọn.**
 
-[^1]:
-    [Wikipedia về Encryption.](https://en.wikipedia.org/wiki/Encryption)[^2]:
-    [Wikipedia về nguyên tắc Kerckhoffs.](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
-
-[^3]:
-
-[Thuật toán RSA.](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/)
-[^4]:
-[Thuật toán ECDSA.](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
-[^5]:
-[Wikipedia về Public Key Infrastructure.](https://en.wikipedia.org/wiki/Public_key_infrastructure)
-[^6]:
-[Wikipedia về One-way Function.](https://en.wikipedia.org/wiki/One-way_function)
+[^1]: [Wikipedia về Encryption.](https://en.wikipedia.org/wiki/Encryption)
+[^2]: [Wikipedia về nguyên tắc Kerckhoffs.](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
+[^3]: [Thuật toán RSA.](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/)
+[^4]: [Thuật toán ECDSA.](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
+[^5]: [Wikipedia về Public Key Infrastructure.](https://en.wikipedia.org/wiki/Public_key_infrastructure)
+[^6]: [Wikipedia về One-way Function.](https://en.wikipedia.org/wiki/One-way_function)
