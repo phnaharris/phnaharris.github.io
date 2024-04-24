@@ -4,4 +4,4 @@ title: "phnaharris's Resumé"
 ---
 
 You can view the PDF version
-[here](<https://phnaharris.github.io/cv/[CV]%20[Nam%20Anh%20Pham%20Hoang%20(Harris)]%20[Software%20Engineer].pdf>).
+[here](https://phnaharris.github.io/cv/CV-Nam-Anh-Pham-Hoang-Harris-Software-Engineer.pdf).
