@@ -5,15 +5,15 @@ title: "Support me"
 
 ### Affiliates
 
-**KuCoin**: https://www.kucoin.com/r/rf/QBSN2N2J
-
 **Binance**: https://accounts.binance.info/register?ref=94584202
 
-**Gate.io**: https://www.gate.io/signup/AwcXUlhX?ref_type=103
+**OKX**: https://okx.com/join/49552376
 
 **Bybit**: https://www.bybitglobal.com/invite?ref=WMNGMR
 
-**OKX**: https://okx.com/join/49552376
+**Gate.io**: https://www.gate.io/signup/AwcXUlhX?ref_type=103
+
+**KuCoin**: https://www.kucoin.com/r/rf/QBSN2N2J
 
 ### Crypto
 
