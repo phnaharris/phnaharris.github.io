@@ -17,7 +17,10 @@ title: "Support me"
 
 ### Crypto
 
-**Bitcoin**: bc1qquf7zcg90f2ftevym04rfvezxxcgj027vadann
+**Bitcoin (Native SegWit)**: bc1qquf7zcg90f2ftevym04rfvezxxcgj027vadann
+
+**Bitcoin (Taproot)**:
+bc1p2gnkmhd5jteamvwn8neyjkythqxrdkljfa2qfac4emg9yplxdw3qdl0acp
 
 **Ethereum (ERC20) / BSC (BEP20)**: 0xbd73186a182e826f96380ad97a0d1fcabeba41c8
 
