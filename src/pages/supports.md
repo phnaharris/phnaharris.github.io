@@ -11,6 +11,8 @@ title: "Support me"
 
 **Bybit**: https://www.bybitglobal.com/invite?ref=WMNGMR
 
+**Bitget.com**: https://share.bitget.com/u/6UED3BB7
+
 **Gate.io**: https://www.gate.io/signup/AwcXUlhX?ref_type=103
 
 **KuCoin**: https://www.kucoin.com/r/rf/QBSN2N2J
@@ -22,7 +24,8 @@ title: "Support me"
 **Bitcoin (Taproot)**:
 bc1p2gnkmhd5jteamvwn8neyjkythqxrdkljfa2qfac4emg9yplxdw3qdl0acp
 
-**Ethereum (ERC20) / BSC (BEP20)**: 0xbd73186a182e826f96380ad97a0d1fcabeba41c8
+**Ethereum (ERC20) / BNB Chain (BEP20)**:
+0xbd73186a182e826f96380ad97a0d1fcabeba41c8
 
 **USDT (Tron)**: TPkQopnty7LB8DNY2HQppF7rAgXe8gNywn
 
